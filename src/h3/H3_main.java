@@ -6,6 +6,7 @@ public class H3_main {
     static void main(String[] args) {
         int [] a = {2,2,1};
         int [] b = {1,2,2};
+        compareArraysVal(a,b);
         System.out.println(compareArraysVal(a,b));
 
     }

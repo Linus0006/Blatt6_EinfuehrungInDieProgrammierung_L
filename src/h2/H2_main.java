@@ -4,6 +4,7 @@ public class H2_main {
     static void main(String[] args) {
         int [] a = {1,2,3,12,0};
         int [] b = {1,2,3,12,0};
+        compareArrays(a,b);
         System.out.println(compareArrays(a,b));
 
     }

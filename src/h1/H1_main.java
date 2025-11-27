@@ -4,8 +4,9 @@ public class H1_main {
     static void main(String[] args) {
         int [] a = {1, 3, 5, 4, 1};
         int [] b = {1, 4, 5, 3, 1};
+
         isMirrorArray(a,b);
-        System.out.println(isMirrorArray(a,b));
+        System.out.println(isMirrorArray(b,a));
 
 
 
